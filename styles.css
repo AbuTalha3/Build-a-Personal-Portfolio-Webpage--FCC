@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px; /* Adjust as needed */
+}
+
+#welcome-section {
+  height: 100vh; /* Set height to viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+#projects,
+#profile-link {
+  padding: 20px;
+}
+
+#projects h2,
+#profile-link h2 {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+  /* Example of a media query for smaller screens */
+  #navbar {
+    height: 70px; /* Adjust as needed for responsiveness */
+  }
+
+  #welcome-section h1 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+}
